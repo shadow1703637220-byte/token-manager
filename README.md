@@ -13,6 +13,14 @@
 
 **从源码运行**：装好 Node 18+ 后，`node server.js`，浏览器打开 http://127.0.0.1:3210 ；测试 `node test.js`（31 项）；打包发行版 `node build-dist.js all`。
 
+## ☕ 请作者喝杯咖啡
+
+这个工具免费开源。如果它帮你省下了逐个登录查额度的麻烦，欢迎请作者喝杯咖啡，多少随心意。
+
+| 微信 | 支付宝 |
+| --- | --- |
+| <img src="https://nixinhai.de5.net/assets/pay/wechat-pay.svg" width="180" alt="微信收款码"> | <img src="https://nixinhai.de5.net/assets/pay/alipay-pay.svg" width="180" alt="支付宝收款码"> |
+
 ---
 
 ## 更新日志
