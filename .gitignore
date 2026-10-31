@@ -1,0 +1,5 @@
+data.json
+dist/
+dist-build/
+*.log
+.DS_Store
