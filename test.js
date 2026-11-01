@@ -165,4 +165,26 @@ ok('交互动效已生效（悬停上浮/按压/进度平滑/减少动效兜底�
   assert.ok(m.HTML.includes('prefers-reduced-motion'), '缺减少动效兜底');
   assert.ok(!m.HTML.includes('riseIn .28s ease both'), '入场动画不得用 forwards 填充（会压住悬停位移）');
 });
+
+ok('版本号已升到 1.0.1', () => {
+  assert.strictEqual(m.APP_VERSION, '1.0.1');
+});
+ok('咖啡入口存在（页脚入口 + 双收款码 + 展开函数）', () => {
+  assert.ok(m.HTML.includes('id="coffeebox"'), '缺咖啡展开区');
+  assert.ok(m.HTML.includes('wechat-pay.svg'), '缺微信收款码');
+  assert.ok(m.HTML.includes('alipay-pay.svg'), '缺支付宝收款码');
+  assert.ok(m.HTML.includes('onclick="return toggleCoffee(event)"'), '缺入口点击绑定');
+  assert.ok(m.HTML.includes('function toggleCoffee'), '缺 toggleCoffee 函数');
+});
+ok('咖啡入口点击模拟（展开/收起真能翻转）', () => {
+  const fnSrc = m.HTML.match(/function toggleCoffee[\s\S]*?return false\}/)[0];
+  const box = { style: { display: 'none' } };
+  const documentStub = { getElementById: (id) => (id === 'coffeebox' ? box : null) };
+  const toggleCoffee = new Function('document', fnSrc + '; return toggleCoffee;')(documentStub);
+  const ev = { preventDefault() {} };
+  assert.strictEqual(toggleCoffee(ev), false);
+  assert.strictEqual(box.style.display, 'block', '第一次点击应展开');
+  toggleCoffee(ev);
+  assert.strictEqual(box.style.display, 'none', '第二次点击应收起');
+});
 console.log('\n全部 ' + n + ' 项测试通过');
