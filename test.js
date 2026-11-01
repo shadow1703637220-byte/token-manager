@@ -166,8 +166,8 @@ ok('交互动效已生效（悬停上浮/按压/进度平滑/减少动效兜底�
   assert.ok(!m.HTML.includes('riseIn .28s ease both'), '入场动画不得用 forwards 填充（会压住悬停位移）');
 });
 
-ok('版本号已升到 1.0.1', () => {
-  assert.strictEqual(m.APP_VERSION, '1.0.1');
+ok('版本号已升到 1.0.2', () => {
+  assert.strictEqual(m.APP_VERSION, '1.0.2');
 });
 ok('咖啡入口存在（页脚入口 + 双收款码 + 展开函数）', () => {
   assert.ok(m.HTML.includes('id="coffeebox"'), '缺咖啡展开区');

@@ -2,7 +2,8 @@
 /*
  * 发行打包：把本地 Token 管家打成「所有人下载就能用」的成品
  * - Windows: Node SEA 单文件 exe（双击运行，自动开浏览器，关窗口退出）
- * - macOS: .app 套装（包内自带官方 node 二进制不改动，保住其签名；右击打开一次即可）
+ * - macOS: .app 套装（v1.0.2 起改 AppleScript applet 外壳：真应用进程、程序坞有图标；
+ *   osacompile 只能在 macOS 上跑，本脚本只备料 payload，最终组装在 Mac 上完成）
  * - Linux: SEA 单文件（主要用于本机自测打包管线）
  * 用法: node build-dist.js [win|mac|linux|all]
  */
@@ -66,24 +67,17 @@ function buildSea(kind, outName) {
 }
 
 function buildMac(arch) {
+  // v1.0.2：Mac 外壳是 AppleScript applet（mac-app/TokenManager.applescript），
+  // 只能在 macOS 上用 osacompile 编译。本函数只备料到 dist/mac-<arch>/payload/，
+  // 组装步骤写在 TokenManager.applescript 文件头（Build on a Mac 一节）。
   const kind = 'darwin-' + arch;
   const nodeBin = nodeBinaryFor(kind);
-  const appName = 'TokenManager.app'; // 包名用 ASCII 防 zip 文件名编码坑，显示名仍是「本地 Token 管家」（Info.plist）
-  const appDir = path.join(OUT, 'mac-' + arch, appName);
-  const contents = path.join(appDir, 'Contents');
-  fs.mkdirSync(path.join(contents, 'MacOS'), { recursive: true });
-  fs.mkdirSync(path.join(contents, 'Resources'), { recursive: true });
-  const tpl = path.join(ROOT, 'mac-app', '本地Token管家.app', 'Contents');
-  fs.copyFileSync(path.join(tpl, 'Info.plist'), path.join(contents, 'Info.plist'));
-  fs.copyFileSync(path.join(tpl, 'PkgInfo'), path.join(contents, 'PkgInfo'));
-  fs.copyFileSync(path.join(ROOT, 'mac-app', 'TokenLauncher.dist'), path.join(contents, 'MacOS', 'TokenLauncher'));
-  fs.copyFileSync(nodeBin, path.join(contents, 'Resources', 'node'));
-  fs.copyFileSync(path.join(ROOT, 'server.js'), path.join(contents, 'Resources', 'server.js'));
-  fs.copyFileSync(path.join(ROOT, 'mac-app', 'AppIcon.icns'), path.join(contents, 'Resources', 'AppIcon.icns'));
-  run('chmod +x ' + path.join(contents, 'MacOS', 'TokenLauncher') + ' ' + path.join(contents, 'Resources', 'node'));
-  const zip = path.join(OUT, 'TokenManager-Mac-' + arch + '.zip');
-  run('cd ' + path.join(OUT, 'mac-' + arch) + ' && zip -qry ' + zip + ' ' + appName);
-  console.log('built', zip, (fs.statSync(zip).size / 1048576).toFixed(1) + 'MB');
+  const payload = path.join(OUT, 'mac-' + arch, 'payload');
+  fs.mkdirSync(payload, { recursive: true });
+  fs.copyFileSync(nodeBin, path.join(payload, 'node'));
+  fs.copyFileSync(path.join(ROOT, 'server.js'), path.join(payload, 'server.js'));
+  fs.copyFileSync(path.join(ROOT, 'mac-app', 'AppIcon.icns'), path.join(payload, 'applet.icns'));
+  console.log('mac payload staged →', payload, '（node / server.js / applet.icns，在 Mac 上组装）');
 }
 
 const target = process.argv[2] || 'all';

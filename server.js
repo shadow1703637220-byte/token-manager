@@ -23,7 +23,7 @@ function resolveDataFile() {
   return path.join(__dirname, 'data.json');
 }
 const DATA_FILE = resolveDataFile();
-const APP_VERSION = '1.0.1';
+const APP_VERSION = '1.0.2';
 const UPDATE_REPO = 'shadow1703637220-byte/token-manager';
 
 function loadData() {

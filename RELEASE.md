@@ -1,4 +1,4 @@
-# 本地 Token 管家 · 发行说明（v3.0）
+# 本地 Token 管家 · 发行说明（v1.0.2）
 
 一个完全在本地运行的 AI 额度管家：DeepSeek / 硅基流动 / Kimi / OpenRouter / 智谱 GLM Coding Plan / 各类 NewAPI 中转站的余额与免费额度，一页看全。所有 Key 只存在你自己电脑里，查询时由本机直连各平台官方接口，不经过任何第三方服务器。
 
@@ -15,7 +15,7 @@
 
 **Windows**：双击 exe，会弹出一个黑色窗口（别关，关了就退出），浏览器自动打开管理页。第一次运行 Windows 可能提示「Windows 已保护你的电脑」——点「更多信息」→「仍要运行」即可（个人开发者没有买代码签名证书，属正常现象）。
 
-**Mac**：解压 zip，把 TokenManager.app 拖到「应用程序」或桌面，双击打开。第一次打开若被拦截，在 Finder 里右键点 App →「打开」→ 再点「打开」，之后就能正常双击（未做苹果付费签名，属正常现象）。有 Chrome 会以独立窗口打开，没有就用默认浏览器。
+**Mac**：解压 zip，把 TokenManager.app 拖到「应用程序」或桌面，双击打开。第一次打开若被拦截，在 Finder 里右键点 App →「打开」→ 再点「打开」，之后就能正常双击（未做苹果付费签名，属正常现象）。有 Chrome 会以独立窗口打开，没有就用默认浏览器。运行期间程序坞有图标，右键点图标选「退出」即可停掉服务。
 
 **数据在哪**：你的 Key 和记录存在系统用户目录（Windows：%APPDATA%\TokenManager\data.json；Mac：~/Library/Application Support/TokenManager/data.json），卸载删掉这个文件夹即可，不留残留。
 
