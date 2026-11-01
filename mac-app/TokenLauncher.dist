@@ -1,22 +1,29 @@
 #!/bin/zsh
-# 本地 Token 管家（发行版）· App 启动器
-# 用包内自带的 node 跑包内 server.js；数据自动存到 ~/Library/Application Support/TokenManager/data.json
+# 本地 Token 管家（发行版）· App 启动器 v1.0.1
+# app 进程与服务器同生共死：运行期间程序坞有图标，右键「退出」即停服务
+# 数据存到 ~/Library/Application Support/TokenManager/data.json
 SELF="${0:A:h}"
 RES="$SELF/../Resources"
 PORT=3210
 URL="http://127.0.0.1:${PORT}/"
 
-if ! curl -s -o /dev/null --max-time 2 "$URL"; then
-  TM_DIST=1 TM_NO_BROWSER=1 nohup "$RES/node" "$RES/server.js" >> "$HOME/Library/Logs/TokenManager.log" 2>&1 &
-  for i in {1..40}; do
-    curl -s -o /dev/null --max-time 1 "$URL" && break
-    sleep 0.25
-  done
+# 已有实例在跑：只打开页面，本实例随即退出（不抢占端口）
+if curl -s -o /dev/null --max-time 2 "$URL"; then
+  open "${URL}?t=$(date +%s)"
+  exit 0
 fi
 
-APPURL="${URL}?t=$(date +%s)"
+# 有 Chrome 时用 app 模式窗口（等服务器就绪后再开）；没有 Chrome 则让服务器自带逻辑开默认浏览器
 if [ -d "/Applications/Google Chrome.app" ]; then
-  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --app="$APPURL" >/dev/null 2>&1 &
-else
-  open "$APPURL"
+  export TM_NO_BROWSER=1
+  (
+    for i in {1..40}; do
+      curl -s -o /dev/null --max-time 1 "$URL" && break
+      sleep 0.25
+    done
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --app="${URL}?t=$(date +%s)" >/dev/null 2>&1
+  ) &
 fi
+
+export TM_DIST=1
+exec "$RES/node" "$RES/server.js" >> "$HOME/Library/Logs/TokenManager.log" 2>&1
