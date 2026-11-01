@@ -79,6 +79,7 @@ function buildMac(arch) {
   fs.copyFileSync(path.join(ROOT, 'mac-app', 'TokenLauncher.dist'), path.join(contents, 'MacOS', 'TokenLauncher'));
   fs.copyFileSync(nodeBin, path.join(contents, 'Resources', 'node'));
   fs.copyFileSync(path.join(ROOT, 'server.js'), path.join(contents, 'Resources', 'server.js'));
+  fs.copyFileSync(path.join(ROOT, 'mac-app', 'AppIcon.icns'), path.join(contents, 'Resources', 'AppIcon.icns'));
   run('chmod +x ' + path.join(contents, 'MacOS', 'TokenLauncher') + ' ' + path.join(contents, 'Resources', 'node'));
   const zip = path.join(OUT, 'TokenManager-Mac-' + arch + '.zip');
   run('cd ' + path.join(OUT, 'mac-' + arch) + ' && zip -qry ' + zip + ' ' + appName);
