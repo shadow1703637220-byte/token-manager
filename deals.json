@@ -1,0 +1,498 @@
+{
+ "updated": "2026-11-17",
+ "source": "aihot.news/free-tokens（2026-11-17 抓取核对）+ 自核条目",
+ "deals": [
+  {
+   "name": "魔塔社区 ModelScope",
+   "kind": "signin",
+   "reward": "每天登录领 200 魔粒，绑实名阿里云账号再 +50",
+   "note": "魔粒当日有效，每次调用扣 0.5~2 个（看模型大小）；以前流传的「每天 2000 次」是旧口径，已改魔粒制。",
+   "url": "https://www.modelscope.cn/"
+  },
+  {
+   "name": "豆包电脑版",
+   "kind": "signin",
+   "reward": "每天签到领 200 额度",
+   "note": "仅电脑端、产品内用（豆包 2.1 Turbo 等），不是 API 余额；要有活动入口。",
+   "url": "https://www.doubao.com/"
+  },
+  {
+   "name": "秒悟 Meoo",
+   "kind": "signin",
+   "reward": "每天登录领 2000 积分",
+   "note": "产品内用，语言/图像等模型。",
+   "url": "https://docs.meoo.com/pricing"
+  },
+  {
+   "name": "MiniMax Code",
+   "kind": "signin",
+   "reward": "每天签到领 400 积分",
+   "note": "仅电脑端、产品内用，平台支持的文本与多模态模型。",
+   "url": "https://agent.minimax.cn/"
+  },
+  {
+   "name": "TRAE",
+   "kind": "signin",
+   "reward": "每天签到领 100 积分",
+   "note": "仅电脑端、产品内用；Seed-Evolving 仅会员。",
+   "url": "https://www.trae.cn/"
+  },
+  {
+   "name": "WPS 灵犀",
+   "kind": "signin",
+   "reward": "签到领 100 智点，第 7 天起每天 200",
+   "note": "灵犀专业版体验版，产品内用。",
+   "url": "https://www.lingxi.cn/"
+  },
+  {
+   "name": "商汤小浣熊",
+   "kind": "signin",
+   "reward": "免费版每天送 300 积分",
+   "note": "个人免费版，AI 对话/数据分析/PPT，产品内用。",
+   "url": "https://xiaohuanxiong.com/"
+  },
+  {
+   "name": "讯飞 AStudio",
+   "kind": "signin",
+   "reward": "体验版每天登录领 100 积分",
+   "note": "仅电脑端（Mac 需苹果芯片），产品内用。",
+   "url": "https://agent.xfyun.cn/"
+  },
+  {
+   "name": "ACE Music",
+   "kind": "signin",
+   "reward": "每天 20 积分，最多生成 10 首歌",
+   "note": "v1 系列不可下载、限非商用。",
+   "url": "https://acemusic.ai/pricing/"
+  },
+  {
+   "name": "华为果办 OfficeAce",
+   "kind": "signin",
+   "reward": "免费版每日登录送 100 积分",
+   "note": "限时活动；客户端或微信小程序，产品内用。",
+   "url": "https://activity.huaweicloud.com/officeace.html"
+  },
+  {
+   "name": "华为云码道",
+   "kind": "signin",
+   "reward": "每日签到领 100 积分",
+   "note": "个人体验版，需每日手动领，产品内用。",
+   "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0004.html",
+   "endsAt": "2026-12-31"
+  },
+  {
+   "name": "华为码道 Skill 创新赛",
+   "kind": "signin",
+   "reward": "每日签到领 1000 积分",
+   "note": "需报名参赛（11月24日截止）、要有应用开发能力。",
+   "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0008.html",
+   "endsAt": "2026-12-05"
+  },
+  {
+   "name": "MobileClaw（中国移动云）",
+   "kind": "signin",
+   "reward": "每日登录领 100 万 Token",
+   "note": "仅电脑端、产品内用，呼和浩特资源池。",
+   "url": "https://ecloud.10086.cn/mobilecloud/act/2026-double11",
+   "endsAt": "2026-12-31"
+  },
+  {
+   "name": "Qoder",
+   "kind": "signin",
+   "reward": "每天 10 点领 100 Credits",
+   "note": "仅电脑端、个人账号，产品内用。",
+   "url": "https://docs.qoder.cn/events/100credits"
+  },
+  {
+   "name": "OpenRouter 免费模型",
+   "kind": "daily",
+   "reward": ":free 模型每天 50 次请求；累计买过 $10 额度后升到 1000 次/天",
+   "note": "20 次/分钟；免费模型名单经常换，按模型 ID 的 :free 后缀认。",
+   "url": "https://openrouter.ai/settings/credits"
+  },
+  {
+   "name": "OpenRouter · 文心 ERNIE 5.5 Flash 限免",
+   "kind": "daily",
+   "reward": "共享每日 50 次、20 次/分钟",
+   "note": "模型 ID：baidu/ernie-5.5-flash-preview:free。",
+   "url": "https://openrouter.ai/baidu/ernie-5.5-flash-preview:free"
+  },
+  {
+   "name": "Google AI Studio（Gemini API）",
+   "kind": "daily",
+   "reward": "免费层按模型每天刷新：Flash-Lite 约 500 次/天，Flash 约 20 次/天",
+   "note": "按项目+模型分别计，太平洋时间午夜重置；具体数字以 AI Studio 的 Rate limit 面板为准。",
+   "url": "https://aistudio.google.com/"
+  },
+  {
+   "name": "Groq 免费层",
+   "kind": "daily",
+   "reward": "主力模型每模型每天 1000 次 / 20 万 tokens",
+   "note": "免费推理速度极快；限额按模型单独算，以控制台 Limits 页为准。",
+   "url": "https://console.groq.com/"
+  },
+  {
+   "name": "Cerebras 免费层",
+   "kind": "daily",
+   "reward": "每天约 100 万 tokens 免费层",
+   "note": "以官网控制台显示为准，免费档限速较严。",
+   "url": "https://cloud.cerebras.ai/"
+  },
+  {
+   "name": "NVIDIA NIM（build.nvidia.com）",
+   "kind": "daily",
+   "reward": "免费试用按限速开放，约 40 次/分钟",
+   "note": "老教程里的「注册送 1000 credits」口径已变，现在是限速试用，仅限原型测试。",
+   "url": "https://build.nvidia.com/"
+  },
+  {
+   "name": "Cloudflare Workers AI",
+   "kind": "daily",
+   "reward": "每天免费 1 万 Neurons",
+   "note": "免费计划超额即停；覆盖 Qwen/GPT-OSS/Gemma/Llama 等部分模型。",
+   "url": "https://developers.cloudflare.com/workers-ai/"
+  },
+  {
+   "name": "面壁 MiniCPM-OCR",
+   "kind": "daily",
+   "reward": "免费 OCR API",
+   "note": "需手机号验证；MiniCPM-OCR 1.0。",
+   "url": "https://github.com/OpenBMB/MiniCPM-OCR"
+  },
+  {
+   "name": "SoMark OXR",
+   "kind": "daily",
+   "reward": "免费文档解析 API",
+   "note": "无需注册；请求排队，不建议生产使用。",
+   "url": "https://somark.cn/oxr"
+  },
+  {
+   "name": "硅基流动免费模型",
+   "kind": "daily",
+   "reward": "OCR/语音/向量/生图一批模型免费调用",
+   "note": "定价页标免费的那些（PaddleOCR-VL、BGE、Kolors、SenseVoice 等），不含 Pro 版。",
+   "url": "https://cloud.siliconflow.cn/"
+  },
+  {
+   "name": "WorkBuddy",
+   "kind": "monthly",
+   "reward": "体验版每月 500 积分",
+   "note": "WorkBuddy/CodeBuddy 内置模型，产品内用。",
+   "url": "https://www.workbuddy.cn/"
+  },
+  {
+   "name": "TRAE 国内版",
+   "kind": "monthly",
+   "reward": "每月 500 积分",
+   "note": "产品内用，仅电脑端。",
+   "url": "https://www.trae.cn/pricing"
+  },
+  {
+   "name": "MobileClaw（中国移动云）",
+   "kind": "monthly",
+   "reward": "每月登录领 1000 万 Token",
+   "note": "仅电脑端、产品内用，呼和浩特资源池。",
+   "url": "https://ecloud.10086.cn/mobilecloud/act/2026-double11",
+   "endsAt": "2026-12-31"
+  },
+  {
+   "name": "腾讯云 ADP",
+   "kind": "monthly",
+   "reward": "体验版每月送 15,000 PU",
+   "note": "要实名，产品内用，Auto 模型。",
+   "url": "https://cloud.tencent.com/document/product/1759/139268"
+  },
+  {
+   "name": "蚂蚁百灵",
+   "kind": "monthly",
+   "reward": "每月 1 日送 ¥10 抵扣券",
+   "note": "百灵开放平台所有模型按实付抵扣；月中升级不补发。",
+   "url": "https://developer.ant-ling.com/"
+  },
+  {
+   "name": "ElevenLabs",
+   "kind": "monthly",
+   "reward": "免费档每月 1 万积分",
+   "note": "语音模型/转写/音效；不可商用、发布须署名。",
+   "url": "https://elevenlabs.io/pricing"
+  },
+  {
+   "name": "Rime",
+   "kind": "monthly",
+   "reward": "每月 $50 语音模型额度（≈¥333）",
+   "note": "无需绑卡；限评估开发、18 岁以上。",
+   "url": "https://www.rime.ai/pricing"
+  },
+  {
+   "name": "Nace AI（Drex）",
+   "kind": "monthly",
+   "reward": "每月 $5 模型调用额度（≈¥33）",
+   "note": "注册满一个月+真人认证；免费发放有限额。",
+   "url": "https://console.nace.ai/"
+  },
+  {
+   "name": "LiveKit",
+   "kind": "monthly",
+   "reward": "每月 $2.5 推理额度（≈¥17）",
+   "note": "无需绑卡，需开发接入。",
+   "url": "https://livekit.com/pricing"
+  },
+  {
+   "name": "EdgeOne Makers",
+   "kind": "monthly",
+   "reward": "每月 50 万 Token",
+   "note": "仅限技术验证，账号共享额度。",
+   "url": "https://pages.edgeone.ai/"
+  },
+  {
+   "name": "书生·端砚",
+   "kind": "monthly",
+   "reward": "测试期每月送免费墨点（数量以账户为准）",
+   "note": "测试期福利，DeepSeek/GLM/Qwen 等模型按价消耗墨点。",
+   "url": "https://www.shlab.org.cn/news/5444294"
+  },
+  {
+   "name": "Zed 学生",
+   "kind": "monthly",
+   "reward": "在读学生每月 $10 AI 额度，连送 12 个月",
+   "note": "需学校邮箱验证 + GitHub 账号满 30 天。",
+   "url": "https://zed.dev/education"
+  },
+  {
+   "name": "阿里云百炼",
+   "kind": "newuser",
+   "reward": "每个模型 100 万 tokens，几十个模型合计约 7000 万",
+   "note": "首次开通自动到账、不用领；要先实名、只在华北2（北京）发，开通后 90 天有效，建议打开「免费额度用完即停」。",
+   "url": "https://bailian.console.aliyun.com/"
+  },
+  {
+   "name": "硅基流动 SiliconFlow",
+   "kind": "newuser",
+   "reward": "注册送约 2000 万 tokens（14 元额度）",
+   "note": "实名后到账；部分 9B 以下小模型长期免费，不吃这笔额度。",
+   "url": "https://cloud.siliconflow.cn/"
+  },
+  {
+   "name": "硅基流动（实名券）",
+   "kind": "newuser",
+   "reward": "实名认证送 ¥16 代金券",
+   "note": "API/批量推理/微调都能用，含 Pro 模型。",
+   "url": "https://cloud.siliconflow.cn/",
+   "endsAt": "2026-12-31"
+  },
+  {
+   "name": "智谱 GLM",
+   "kind": "newuser",
+   "reward": "新用户约 2000 万 tokens 体验包；GLM-Flash 系列长期免费",
+   "note": "Flash 系列调用不耗体验包额度，是长期保底；体验包有效期以控制台资源包页为准。",
+   "url": "https://open.bigmodel.cn/"
+  },
+  {
+   "name": "火山方舟（豆包）",
+   "kind": "newuser",
+   "reward": "每款模型 50 万 tokens 新手额度",
+   "note": "开通后到账；另有协作奖励计划，个人每日最高 200 万 tokens/模型，以控制台为准。",
+   "url": "https://console.volcengine.com/ark"
+  },
+  {
+   "name": "DeepSeek 开放平台",
+   "kind": "newuser",
+   "reward": "新用户注册赠送一笔额度",
+   "note": "到账金额与有效期以控制台为准，赠送额度过期作废，别囤。",
+   "url": "https://platform.deepseek.com/"
+  },
+  {
+   "name": "百度千帆",
+   "kind": "newuser",
+   "reward": "新用户送 ¥20 代金券",
+   "note": "要实名，千帆平台所有模型。",
+   "url": "https://cloud.baidu.com/doc/qianfan/index.html",
+   "endsAt": "2026-11-30"
+  },
+  {
+   "name": "蚂蚁百灵新用户",
+   "kind": "newuser",
+   "reward": "新用户送 ¥20 Token 消费券",
+   "note": "抵扣范围以到账券面为准。",
+   "url": "https://developer.ant-ling.com/"
+  },
+  {
+   "name": "腾讯云 TokenHub",
+   "kind": "newuser",
+   "reward": "新人送 100 万 Token",
+   "note": "要实名，语言与多模态模型；额度以控制台为准。",
+   "url": "https://cloud.tencent.com/document/product/1823/130053",
+   "endsAt": "2026-12-31"
+  },
+  {
+   "name": "CloudBase（微信小程序）",
+   "kind": "newuser",
+   "reward": "送 10 亿 Token + 10 万张生图",
+   "note": "需微信小程序账号、仅云开发内用；hy4-preview 12月7日下线。",
+   "url": "https://docs.cloudbase.net/ai/ai-inspire-plan",
+   "endsAt": "2026-12-31"
+  },
+  {
+   "name": "秒悟新用户",
+   "kind": "newuser",
+   "reward": "新用户首月 5000 积分",
+   "note": "产品内用，含图像/视频模型。",
+   "url": "https://docs.meoo.com/pricing"
+  },
+  {
+   "name": "AStudio 新用户",
+   "kind": "newuser",
+   "reward": "下载登录领 1000 积分",
+   "note": "仅电脑端（Mac 需苹果芯片），产品内用。",
+   "url": "https://agent.xfyun.cn/"
+  },
+  {
+   "name": "MobileClaw 新人",
+   "kind": "newuser",
+   "reward": "新人实名领 2500 万 Token",
+   "note": "仅电脑端、产品内用，呼和浩特资源池。",
+   "url": "https://ecloud.10086.cn/mobilecloud/act/2026-double11",
+   "endsAt": "2026-12-31"
+  },
+  {
+   "name": "Qoder 新人",
+   "kind": "newuser",
+   "reward": "新人 300 Credits + 两周 Pro",
+   "note": "高级模型要在 Pro 试用期内用。",
+   "url": "https://docs.qoder.cn/product-overview/billing-description"
+  },
+  {
+   "name": "TRAE 国内版新用户",
+   "kind": "newuser",
+   "reward": "注册送 1500 积分",
+   "note": "仅电脑端、产品内用。",
+   "url": "https://docs.trae.cn/ide_plans-and-billing"
+  },
+  {
+   "name": "WorkBuddy Buddy One",
+   "kind": "newuser",
+   "reward": "关联 Buddy One 送 100 积分",
+   "note": "暂不支持解绑。",
+   "url": "https://www.workbuddy.cn/buddyone/"
+  },
+  {
+   "name": "ZCode",
+   "kind": "newuser",
+   "reward": "新用户 5 天体验，每天 800 万 Token",
+   "note": "GLM-5.3 每天 300 万 + Flash 每天 500 万，各算各的；仅电脑端。",
+   "url": "https://zcode.z.ai/"
+  },
+  {
+   "name": "华为码道创新赛报名",
+   "kind": "newuser",
+   "reward": "报名领 2000 积分",
+   "note": "11月24日报名截止，需有应用开发能力。",
+   "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0008.html",
+   "endsAt": "2026-12-05"
+  },
+  {
+   "name": "超算互联网",
+   "kind": "newuser",
+   "reward": "新用户领 1 亿 Token（≈¥60）",
+   "note": "要实名、客户端领取、每日限量；另有 1000 万 Token 档（≈¥6）。发放型号以到账为准。",
+   "url": "https://www.scnet.cn/home/subject/double11/index.html",
+   "endsAt": "2026-12-31"
+  },
+  {
+   "name": "Reducto",
+   "kind": "newuser",
+   "reward": "$150 文档解析额度（≈¥1000）",
+   "note": "仅新用户，邮箱域名限领；文档会用于训练。",
+   "url": "https://reducto.ai/pricing"
+  },
+  {
+   "name": "Telnyx",
+   "kind": "newuser",
+   "reward": "新用户送 $25 AI 额度（≈¥167）",
+   "note": "无需绑卡；升级后变 $5。",
+   "url": "https://support.telnyx.com/en/articles/14327893-telnyx-pretrial-accounts"
+  },
+  {
+   "name": "Nace AI 新人",
+   "kind": "newuser",
+   "reward": "新人 $5 额度（≈¥33）",
+   "note": "真人认证，可免绑卡。",
+   "url": "https://console.nace.ai/"
+  },
+  {
+   "name": "Zed 试用",
+   "kind": "newuser",
+   "reward": "14 天试用领 $5 额度",
+   "note": "试用期仅部分托管模型。",
+   "url": "https://zed.dev/"
+  },
+  {
+   "name": "阿里云在读学生",
+   "kind": "newuser",
+   "reward": "在读学生领 ¥300 模型抵扣金",
+   "note": "仅在读学生、要实名、每日限量；不抵扣三方直供模型。",
+   "url": "https://help.aliyun.com/zh/model-studio/introduction-to-yungongkaiwu",
+   "endsAt": "2027-03-31"
+  },
+  {
+   "name": "豆包电脑版新用户",
+   "kind": "newuser",
+   "reward": "新用户 30 天免费体验",
+   "note": "非 Pro 模型，不含生视频；不是 API 余额。",
+   "url": "https://www.doubao.com/"
+  },
+  {
+   "name": "火山引擎 11.11 AI 智选",
+   "kind": "activity",
+   "reward": "活动称共 2500 万 tokens 可领：实名后每模型每天再送 200 万刷新",
+   "note": "双11限时活动，页面未标死截止日，想领尽快；以活动页与方舟控制台为准。",
+   "url": "https://www.volcengine.com/"
+  },
+  {
+   "name": "智谱 AutoClaw",
+   "kind": "activity",
+   "reward": "本周登录领 1 亿 Token",
+   "note": "每账号一次、要实名、产品内用；不抵扣自接 API 费用。",
+   "url": "https://autoclaw.zhipuai.cn/",
+   "endsAt": "2026-11-22"
+  },
+  {
+   "name": "AutoClaw 升级礼",
+   "kind": "activity",
+   "reward": "升级 2.2.0 并登录领 5000 积分",
+   "note": "国内版账号、要实名、仅电脑端。",
+   "url": "https://autoclaw.zhipuai.cn/blog/news/autoclaw-2-2-0-upgrade-data-migration/"
+  },
+  {
+   "name": "蚂蚁百灵 Ling-3.2-flash",
+   "kind": "activity",
+   "reward": "限时免费调用（上线前两周）",
+   "note": "仅这一个模型；需绑支付宝，免费期后收费。",
+   "url": "https://developer.ant-ling.com/",
+   "endsAt": "2026-11-18"
+  },
+  {
+   "name": "Devin Desktop",
+   "kind": "activity",
+   "reward": "免费用 SWE-2 Flash Medium",
+   "note": "仅电脑端；High/Max 需付费套餐。",
+   "url": "https://docs.devin.ai/desktop/models",
+   "endsAt": "2026-12-05"
+  },
+  {
+   "name": "OpenCode",
+   "kind": "activity",
+   "reward": "限时免费多款模型",
+   "note": "Hy4 flash、MiniMax、LongCat、GLM-5.3-Flash 等，仅 OpenCode 内用；LongCat 日限 100 次。",
+   "url": "https://opencode.ai/"
+  },
+  {
+   "name": "WorkBuddy Hy4 flash",
+   "kind": "activity",
+   "reward": "Hy4 flash 限时免费",
+   "note": "仅 WorkBuddy 内，不含 TokenHub 接口。",
+   "url": "https://www.workbuddy.cn/",
+   "endsAt": "2026-11-29"
+  }
+ ]
+}
