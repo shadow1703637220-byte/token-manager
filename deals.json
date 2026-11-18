@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-17",
- "source": "aihot.news/free-tokens（2026-11-17 抓取核对）+ 自核条目",
+ "updated": "2026-11-18",
+ "source": "aihot.news/free-tokens（2026-11-18 抓取核对）+ 自核条目",
  "deals": [
   {
    "name": "魔塔社区 ModelScope",
@@ -86,8 +86,8 @@
   {
    "name": "华为果办 OfficeAce",
    "kind": "signin",
-   "reward": "免费版每日登录送 100 积分",
-   "note": "限时活动；客户端或微信小程序，产品内用。",
+   "reward": "免费版每日登录送 50 积分",
+   "note": "限时活动；客户端或微信小程序登录领，当日有效，产品内用。",
    "url": "https://activity.huaweicloud.com/officeace.html",
    "endsAt": "",
    "usage": "app"
@@ -390,15 +390,6 @@
    "usage": "api"
   },
   {
-   "name": "蚂蚁百灵新用户",
-   "kind": "newuser",
-   "reward": "新用户送 ¥20 Token 消费券",
-   "note": "抵扣范围以到账券面为准。",
-   "url": "https://developer.ant-ling.com/",
-   "endsAt": "",
-   "usage": "api"
-  },
-  {
    "name": "腾讯云 TokenHub",
    "kind": "newuser",
    "reward": "新人送 100 万 Token",
@@ -579,15 +570,6 @@
    "usage": "app"
   },
   {
-   "name": "蚂蚁百灵 Ling-3.2-flash",
-   "kind": "activity",
-   "reward": "限时免费调用（上线前两周）",
-   "note": "仅这一个模型；需绑支付宝，免费期后收费。",
-   "url": "https://developer.ant-ling.com/",
-   "endsAt": "2026-11-18",
-   "usage": "api"
-  },
-  {
    "name": "Devin Desktop",
    "kind": "activity",
    "reward": "免费用 SWE-2 Flash Medium",
@@ -613,6 +595,24 @@
    "url": "https://www.workbuddy.cn/",
    "endsAt": "2026-11-29",
    "usage": "app"
+  },
+  {
+   "name": "StepAudio 3",
+   "kind": "activity",
+   "reward": "四款预览模型限时免费调用",
+   "note": "实名认证后免费调用 4 款预览模型；TTS、ASR 与音色服务另收费。",
+   "url": "https://platform.stepfun.com/docs/zh/guides/pricing/details",
+   "endsAt": "2026-11-23",
+   "usage": "api"
+  },
+  {
+   "name": "Agnes AI",
+   "kind": "activity",
+   "reward": "文本、图片与视频模型限免",
+   "note": "免费 API 密钥调用指定 Flash 型号；Pro 系列与普通 Video 2.5 收费。",
+   "url": "https://wiki.agnes-ai.cn/zh-Hans/docs/pricing",
+   "endsAt": "",
+   "usage": "api"
   }
  ]
 }
