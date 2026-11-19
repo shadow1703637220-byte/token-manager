@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-18",
- "source": "aihot.news/free-tokens（2026-11-18 抓取核对）+ 自核条目",
+ "updated": "2026-11-19",
+ "source": "aihot.news/free-tokens（2026-11-19 抓取核对）+ 自核条目",
  "deals": [
   {
    "name": "魔塔社区 ModelScope",
@@ -330,7 +330,7 @@
    "name": "阿里云百炼",
    "kind": "newuser",
    "reward": "每个模型 100 万 tokens，几十个模型合计约 7000 万",
-   "note": "首次开通自动到账、不用领；要先实名、只在华北2（北京）发，开通后 90 天有效，建议打开「免费额度用完即停」。",
+   "note": "首次开通自动到账、不用领；要先实名、只在华北2（北京）发，开通后 90 天有效，建议打开「免费额度用完即停」；11月15日起停发 DeepSeek V4.1 Flash 1017、Qwen3.8 Max 09。",
    "url": "https://bailian.console.aliyun.com/",
    "endsAt": "",
    "usage": "api"
@@ -582,7 +582,7 @@
    "name": "OpenCode",
    "kind": "activity",
    "reward": "限时免费多款模型",
-   "note": "Hy4 flash、MiniMax、LongCat、GLM-5.3-Flash 等，仅 OpenCode 内用；LongCat 日限 100 次。",
+   "note": "Hy4 flash、LongCat 2.5、DeepSeek V4.1 Flash、MiMo、Big Pickle 等，仅 OpenCode 内用；LongCat 日限 100 次。",
    "url": "https://opencode.ai/",
    "endsAt": "",
    "usage": "app"
