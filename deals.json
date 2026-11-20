@@ -1,9 +1,9 @@
 {
- "updated": "2026-11-19",
- "source": "aihot.news/free-tokens（2026-11-19 抓取核对）+ 自核条目",
+ "updated": "2026-11-20",
+ "source": "aihot.news/free-tokens（2026-11-20 抓取核对）+ 自核条目",
  "deals": [
   {
-   "name": "魔塔社区 ModelScope",
+   "name": "魔搭社区 ModelScope",
    "kind": "signin",
    "reward": "每天登录领 200 魔粒，绑实名阿里云账号再 +50",
    "note": "魔粒当日有效，每次调用扣 0.5~2 个（看模型大小）；以前流传的「每天 2000 次」是旧口径，已改魔粒制。",
@@ -593,7 +593,7 @@
    "reward": "Hy4 flash 限时免费",
    "note": "仅 WorkBuddy 内，不含 TokenHub 接口。",
    "url": "https://www.workbuddy.cn/",
-   "endsAt": "2026-11-29",
+   "endsAt": "2026-11-30",
    "usage": "app"
   },
   {
