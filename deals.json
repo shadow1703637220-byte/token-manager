@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-20",
- "source": "aihot.news/free-tokens（2026-11-20 抓取核对）+ 自核条目",
+ "updated": "2026-11-21",
+ "source": "aihot.news/free-tokens（2026-11-21 抓取核对）+ 自核条目",
  "deals": [
   {
    "name": "魔搭社区 ModelScope",
@@ -105,7 +105,7 @@
    "name": "华为码道 Skill 创新赛",
    "kind": "signin",
    "reward": "每日签到领 1000 积分",
-   "note": "需报名参赛（11月24日截止）、要有应用开发能力。",
+   "note": "需报名参赛（11月29日截止）、要有应用开发能力。",
    "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0008.html",
    "endsAt": "2026-12-05",
    "usage": "app"
@@ -215,6 +215,15 @@
    "reward": "OCR/语音/向量/生图一批模型免费调用",
    "note": "定价页标免费的那些（PaddleOCR-VL、BGE、Kolors、SenseVoice 等），不含 Pro 版。",
    "url": "https://cloud.siliconflow.cn/",
+   "endsAt": "",
+   "usage": "api"
+  },
+  {
+   "name": "七牛云 Nemotron 3 Ultra",
+   "kind": "daily",
+   "reward": "免费调用 Nemotron 3 Ultra 550B A55B 免费版",
+   "note": "仅 Nemotron 3 Ultra 550B A55B 免费版。",
+   "url": "https://www.qiniu.com/ai/models",
    "endsAt": "",
    "usage": "api"
   },
@@ -330,17 +339,8 @@
    "name": "阿里云百炼",
    "kind": "newuser",
    "reward": "每个模型 100 万 tokens，几十个模型合计约 7000 万",
-   "note": "首次开通自动到账、不用领；要先实名、只在华北2（北京）发，开通后 90 天有效，建议打开「免费额度用完即停」；11月15日起停发 DeepSeek V4.1 Flash 1017、Qwen3.8 Max 09。",
+   "note": "首次开通自动到账、不用领；要先实名、只在华北2（北京）发，开通后 90 天有效，建议打开「免费额度用完即停」；11月15日起停发 DeepSeek V4.1 Flash 1017、Qwen3.8 Max 0902、DeepSeek V4 Pro、Kimi K3。",
    "url": "https://bailian.console.aliyun.com/",
-   "endsAt": "",
-   "usage": "api"
-  },
-  {
-   "name": "硅基流动 SiliconFlow",
-   "kind": "newuser",
-   "reward": "注册送约 2000 万 tokens（14 元额度）",
-   "note": "实名后到账；部分 9B 以下小模型长期免费，不吃这笔额度。",
-   "url": "https://cloud.siliconflow.cn/",
    "endsAt": "",
    "usage": "api"
   },
@@ -351,15 +351,6 @@
    "note": "API/批量推理/微调都能用，含 Pro 模型。",
    "url": "https://cloud.siliconflow.cn/",
    "endsAt": "2026-12-31",
-   "usage": "api"
-  },
-  {
-   "name": "智谱 GLM",
-   "kind": "newuser",
-   "reward": "新用户约 2000 万 tokens 体验包；GLM-Flash 系列长期免费",
-   "note": "Flash 系列调用不耗体验包额度，是长期保底；体验包有效期以控制台资源包页为准。",
-   "url": "https://open.bigmodel.cn/",
-   "endsAt": "",
    "usage": "api"
   },
   {
@@ -387,15 +378,6 @@
    "note": "要实名，千帆平台所有模型。",
    "url": "https://cloud.baidu.com/doc/qianfan/index.html",
    "endsAt": "2026-11-30",
-   "usage": "api"
-  },
-  {
-   "name": "腾讯云 TokenHub",
-   "kind": "newuser",
-   "reward": "新人送 100 万 Token",
-   "note": "要实名，语言与多模态模型；额度以控制台为准。",
-   "url": "https://cloud.tencent.com/document/product/1823/130053",
-   "endsAt": "2026-12-31",
    "usage": "api"
   },
   {
@@ -474,7 +456,7 @@
    "name": "华为码道创新赛报名",
    "kind": "newuser",
    "reward": "报名领 2000 积分",
-   "note": "11月24日报名截止，需有应用开发能力。",
+   "note": "11月29日报名截止，需有应用开发能力。",
    "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0008.html",
    "endsAt": "2026-12-05",
    "usage": "app"
@@ -541,6 +523,15 @@
    "url": "https://www.doubao.com/",
    "endsAt": "",
    "usage": "app"
+  },
+  {
+   "name": "VModel",
+   "kind": "newuser",
+   "reward": "新用户送 $10 模型调用额度（≈¥67）",
+   "note": "免绑卡，余额不足即停。",
+   "url": "https://vmodel.ai/docs/api/pricing.html",
+   "endsAt": "",
+   "usage": "api"
   },
   {
    "name": "火山引擎 11.11 AI 智选",
@@ -613,6 +604,15 @@
    "url": "https://wiki.agnes-ai.cn/zh-Hans/docs/pricing",
    "endsAt": "",
    "usage": "api"
+  },
+  {
+   "name": "Nous Portal",
+   "kind": "activity",
+   "reward": "限时免费用 Qwen4-Max（qwen/qwen4-max:free）",
+   "note": "仅 Qwen4-Max 免费版，免费档限速，产品内用。",
+   "url": "https://portal.nousresearch.com/",
+   "endsAt": "2026-11-23",
+   "usage": "app"
   }
  ]
 }
