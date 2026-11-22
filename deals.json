@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-21",
- "source": "aihot.news/free-tokens（2026-11-21 抓取核对）+ 自核条目",
+ "updated": "2026-11-22",
+ "source": "aihot.news/free-tokens（2026-11-22 抓取核对）+ 自核条目",
  "deals": [
   {
    "name": "魔搭社区 ModelScope",
    "kind": "signin",
    "reward": "每天登录领 200 魔粒，绑实名阿里云账号再 +50",
    "note": "魔粒当日有效，每次调用扣 0.5~2 个（看模型大小）；以前流传的「每天 2000 次」是旧口径，已改魔粒制。",
-   "url": "https://www.modelscope.cn/",
+   "url": "https://www.modelscope.cn/posts/435591",
    "endsAt": "",
    "usage": "api"
   },
@@ -534,6 +534,15 @@
    "usage": "api"
   },
   {
+   "name": "UCloud 星图新客",
+   "kind": "newuser",
+   "reward": "新客领 ¥25 算力金",
+   "note": "要实名、限新用户、名额有限；星图模型调用抵扣。",
+   "url": "https://www.ucloud.cn/site/active/astraflow-credit",
+   "endsAt": "",
+   "usage": "api"
+  },
+  {
    "name": "火山引擎 11.11 AI 智选",
    "kind": "activity",
    "reward": "活动称共 2500 万 tokens 可领：实名后每模型每天再送 200 万刷新",
@@ -611,6 +620,15 @@
    "reward": "限时免费用 Qwen4-Max（qwen/qwen4-max:free）",
    "note": "仅 Qwen4-Max 免费版，免费档限速，产品内用。",
    "url": "https://portal.nousresearch.com/",
+   "endsAt": "2026-11-23",
+   "usage": "app"
+  },
+  {
+   "name": "fal Seedance 2.5",
+   "kind": "activity",
+   "reward": "周末免费生成 5 段视频（Seedance 2.5）",
+   "note": "周末限免；限注册未满 7 天账号，每段 10 秒，仅 fal 网页内用。",
+   "url": "https://fal.ai/seedance-2.5",
    "endsAt": "2026-11-23",
    "usage": "app"
   }
