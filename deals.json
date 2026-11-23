@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-22",
- "source": "aihot.news/free-tokens（2026-11-22 抓取核对）+ 自核条目",
+ "updated": "2026-11-23",
+ "source": "aihot.news/free-tokens（2026-11-23 抓取核对）+ 自核条目",
  "deals": [
   {
    "name": "魔搭社区 ModelScope",
@@ -10,15 +10,6 @@
    "url": "https://www.modelscope.cn/posts/435591",
    "endsAt": "",
    "usage": "api"
-  },
-  {
-   "name": "豆包电脑版",
-   "kind": "signin",
-   "reward": "每天签到领 200 额度",
-   "note": "仅电脑端、产品内用（豆包 2.1 Turbo 等），不是 API 余额；要有活动入口。",
-   "url": "https://www.doubao.com/",
-   "endsAt": "",
-   "usage": "app"
   },
   {
    "name": "秒悟 Meoo",
@@ -44,24 +35,6 @@
    "reward": "每天签到领 100 积分",
    "note": "仅电脑端、产品内用；Seed-Evolving 仅会员。",
    "url": "https://www.trae.cn/",
-   "endsAt": "",
-   "usage": "app"
-  },
-  {
-   "name": "WPS 灵犀",
-   "kind": "signin",
-   "reward": "签到领 100 智点，第 7 天起每天 200",
-   "note": "灵犀专业版体验版，产品内用。",
-   "url": "https://www.lingxi.cn/",
-   "endsAt": "",
-   "usage": "app"
-  },
-  {
-   "name": "商汤小浣熊",
-   "kind": "signin",
-   "reward": "免费版每天送 300 积分",
-   "note": "个人免费版，AI 对话/数据分析/PPT，产品内用。",
-   "url": "https://xiaohuanxiong.com/",
    "endsAt": "",
    "usage": "app"
   },
@@ -228,13 +201,13 @@
    "usage": "api"
   },
   {
-   "name": "WorkBuddy",
-   "kind": "monthly",
-   "reward": "体验版每月 500 积分",
-   "note": "WorkBuddy/CodeBuddy 内置模型，产品内用。",
-   "url": "https://www.workbuddy.cn/",
+   "name": "哔哩哔哩 Index-Translate",
+   "kind": "daily",
+   "reward": "免费图文翻译接口",
+   "note": "无需注册，兼容 OpenAI 接口；地址 index-translate.bilibili.com/v1。",
+   "url": "https://index-translate.bilibili.com/site/home.html",
    "endsAt": "",
-   "usage": "app"
+   "usage": "api"
   },
   {
    "name": "TRAE 国内版",
@@ -471,15 +444,6 @@
    "usage": "api"
   },
   {
-   "name": "Reducto",
-   "kind": "newuser",
-   "reward": "$150 文档解析额度（≈¥1000）",
-   "note": "仅新用户，邮箱域名限领；文档会用于训练。",
-   "url": "https://reducto.ai/pricing",
-   "endsAt": "",
-   "usage": "api"
-  },
-  {
    "name": "Telnyx",
    "kind": "newuser",
    "reward": "新用户送 $25 AI 额度（≈¥167）",
@@ -543,6 +507,24 @@
    "usage": "api"
   },
   {
+   "name": "智谱 GLM Coding Plan",
+   "kind": "newuser",
+   "reward": "免费领 7 天体验卡（2000 积分）",
+   "note": "从未订阅过 GLM Coding Plan 的用户每人可领一次，领取后立即生效；积分在 ZCode、Claude Code、Codex、Cursor 等智谱支持的工具中使用，不能抵扣标准模型接口费用。",
+   "url": "https://bigmodel.cn/activity/trial-card/PU9MTWG0PM",
+   "endsAt": "",
+   "usage": "app"
+  },
+  {
+   "name": "Rev AI",
+   "kind": "newuser",
+   "reward": "新用户送约 5 小时 Reverb 语音转写额度",
+   "note": "开新账号可领，无需绑卡；额度也可用于 Whisper Large 等产品。",
+   "url": "https://www.rev.ai/pricing",
+   "endsAt": "",
+   "usage": "api"
+  },
+  {
    "name": "火山引擎 11.11 AI 智选",
    "kind": "activity",
    "reward": "活动称共 2500 万 tokens 可领：实名后每模型每天再送 200 万刷新",
@@ -557,7 +539,7 @@
    "reward": "本周登录领 1 亿 Token",
    "note": "每账号一次、要实名、产品内用；不抵扣自接 API 费用。",
    "url": "https://autoclaw.zhipuai.cn/",
-   "endsAt": "2026-11-22",
+   "endsAt": "2026-11-29",
    "usage": "app"
   },
   {
@@ -631,6 +613,24 @@
    "url": "https://fal.ai/seedance-2.5",
    "endsAt": "2026-11-23",
    "usage": "app"
+  },
+  {
+   "name": "商汤小浣熊",
+   "kind": "activity",
+   "reward": "限时免费用 SenseNova 6.8 Flash",
+   "note": "限小浣熊内体验 SenseNova 6.8 Flash，产品内用；开放平台调用另计费。",
+   "url": "https://sensetime.com/cn/news/sensenova-6-8-flash-release-20261103-1421",
+   "endsAt": "2026-12-01",
+   "usage": "app"
+  },
+  {
+   "name": "小米 MiMo",
+   "kind": "activity",
+   "reward": "三款 V2.5 语音合成模型限时免费",
+   "note": "创建普通接口密钥即可调用；三款模型每账号每分钟限 100 次请求。",
+   "url": "https://mimo.mi.com/docs/zh-CN/price/pay-as-you-go",
+   "endsAt": "",
+   "usage": "api"
   }
  ]
 }
