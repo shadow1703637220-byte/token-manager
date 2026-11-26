@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25",
-  "source": "aihot.news/free-tokens（2026-11-25 抓取核对）+ 自核条目",
+  "updated": "2026-11-26",
+  "source": "aihot.news/free-tokens（2026-11-26 抓取核对）+ 自核条目",
   "deals": [
     {
       "name": "魔搭社区 ModelScope",
@@ -68,7 +68,7 @@
     {
       "name": "华为码道 Skill 创新赛",
       "kind": "signin",
-      "reward": "每日签到领 1000 积分",
+      "reward": "每日签到领 100 积分",
       "note": "需报名参赛（11月29日截止）、要有应用开发能力。",
       "url": "https://support.huaweicloud.com/offers-codeartsagent/codeartsagent_offers_0008.html",
       "endsAt": "2026-12-05",
@@ -318,15 +318,6 @@
       "usage": "app"
     },
     {
-      "name": "Zed 学生",
-      "kind": "monthly",
-      "reward": "在读学生每月 $10 AI 额度，连送 12 个月",
-      "note": "需学校邮箱验证 + GitHub 账号满 30 天。",
-      "url": "https://zed.dev/education",
-      "endsAt": "",
-      "usage": "app"
-    },
-    {
       "name": "阿里云百炼",
       "kind": "newuser",
       "reward": "每个模型 100 万 tokens，几十个模型合计约 7000 万",
@@ -342,15 +333,6 @@
       "note": "API/批量推理/微调都能用，含 Pro 模型。",
       "url": "https://cloud.siliconflow.cn/",
       "endsAt": "2026-12-31",
-      "usage": "api"
-    },
-    {
-      "name": "火山方舟（豆包）",
-      "kind": "newuser",
-      "reward": "每款模型 50 万 tokens 新手额度",
-      "note": "开通后到账；另有协作奖励计划，个人每日最高 200 万 tokens/模型，以控制台为准。",
-      "url": "https://console.volcengine.com/ark",
-      "endsAt": "",
       "usage": "api"
     },
     {
@@ -390,15 +372,6 @@
       "usage": "app"
     },
     {
-      "name": "MobileClaw 新人",
-      "kind": "newuser",
-      "reward": "新人实名领 2500 万 Token",
-      "note": "仅电脑端、产品内用，呼和浩特资源池。",
-      "url": "https://ecloud.10086.cn/mobilecloud/act/2026-double11",
-      "endsAt": "2026-12-31",
-      "usage": "app"
-    },
-    {
       "name": "Qoder 新人",
       "kind": "newuser",
       "reward": "新人 300 Credits + 两周 Pro",
@@ -413,15 +386,6 @@
       "reward": "注册送 1500 积分",
       "note": "仅电脑端、产品内用。",
       "url": "https://docs.trae.cn/ide_plans-and-billing",
-      "endsAt": "",
-      "usage": "app"
-    },
-    {
-      "name": "WorkBuddy Buddy One",
-      "kind": "newuser",
-      "reward": "关联 Buddy One 送 100 积分",
-      "note": "暂不支持解绑。",
-      "url": "https://www.workbuddy.cn/buddyone/",
       "endsAt": "",
       "usage": "app"
     },
