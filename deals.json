@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26",
-  "source": "aihot.news/free-tokens（2026-11-26 抓取核对）+ 自核条目",
+  "updated": "2026-11-27",
+  "source": "aihot.news/free-tokens（2026-11-27 抓取核对）+ 自核条目",
   "deals": [
     {
       "name": "魔搭社区 ModelScope",
@@ -233,6 +233,15 @@
       "reward": "dots3-note Preview 免费调用",
       "note": "Dots 开放平台图文翻译模型；暂未公布截止日。",
       "url": "https://dots.ai/platform/docs",
+      "endsAt": "",
+      "usage": "api"
+    },
+    {
+      "name": "云知声 U Plan",
+      "kind": "daily",
+      "reward": "每周 2500 积分",
+      "note": "实名后选 U Plan Free 手动领取，用套餐 API Key 调用；每周刷新、未用不结转，另送语音转写 8 小时等专项额度。",
+      "url": "https://maas.unisound.com/docs/token-plan/overview",
       "endsAt": "",
       "usage": "api"
     },
@@ -516,6 +525,15 @@
       "usage": "app"
     },
     {
+      "name": "fal Seedance 2.5",
+      "kind": "newuser",
+      "reward": "新账号送 2 段视频（每段 10 秒 480p）",
+      "note": "新账号登录即送，仅限 fal 网页 Playground、Sandbox 与 fal Agent 内使用；注册 7 天内绑付款方式可再得 3 段。",
+      "url": "https://fal.ai/seedance-2.5",
+      "endsAt": "2026-12-01",
+      "usage": "app"
+    },
+    {
       "name": "火山引擎 11.11 AI 智选",
       "kind": "activity",
       "reward": "活动称共 2500 万 tokens 可领：实名后每模型每天再送 200 万刷新",
@@ -613,6 +631,24 @@
       "url": "https://docs.qoder.cn/events/hungerg-free",
       "endsAt": "2026-11-30",
       "usage": "app"
+    },
+    {
+      "name": "面壁 MiniCPM-V 4.7",
+      "kind": "activity",
+      "reward": "MiniCPM-V 4.7 两款视觉模型限时免费",
+      "note": "登录面壁开放平台创建 API Key 调用；图像问答、图表与视频理解，256K 上下文。",
+      "url": "https://platform.modelbest.cn/console/docs/models",
+      "endsAt": "",
+      "usage": "api"
+    },
+    {
+      "name": "云知声 U2-Decision",
+      "kind": "activity",
+      "reward": "U2-Decision 决策模型限时免费调用",
+      "note": "实名后创建 API Key，经 SystemOne 接口调用；每分钟最多 100 次请求。",
+      "url": "https://maas.unisound.com/model-hub/u2-decision",
+      "endsAt": "",
+      "usage": "api"
     }
   ]
 }
