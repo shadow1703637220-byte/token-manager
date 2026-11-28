@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27",
-  "source": "aihot.news/free-tokens（2026-11-27 抓取核对）+ 自核条目",
+  "updated": "2026-11-28",
+  "source": "aihot.news/free-tokens（2026-11-28 抓取核对）+ 自核条目",
   "deals": [
     {
       "name": "魔搭社区 ModelScope",
@@ -417,15 +417,6 @@
       "usage": "app"
     },
     {
-      "name": "超算互联网",
-      "kind": "newuser",
-      "reward": "新用户领 1 亿 Token（≈¥60）",
-      "note": "要实名、客户端领取、每日限量；另有 1000 万 Token 档（≈¥6）。发放型号以到账为准。",
-      "url": "https://www.scnet.cn/home/subject/double11/index.html",
-      "endsAt": "2026-12-31",
-      "usage": "api"
-    },
-    {
       "name": "Telnyx",
       "kind": "newuser",
       "reward": "新用户送 $25 AI 额度（≈¥167）",
@@ -532,6 +523,24 @@
       "url": "https://fal.ai/seedance-2.5",
       "endsAt": "2026-12-01",
       "usage": "app"
+    },
+    {
+      "name": "电信星辰 MaaS",
+      "kind": "newuser",
+      "reward": "新用户领 10 亿 Token（Xing4.1-Preview）",
+      "note": "每账号限领一次，领券后在电脑端星辰 MaaS 开通管理 0 元核销，10 日内有效。",
+      "url": "https://console.teleai.com.cn/model-service-web/coupon",
+      "endsAt": "2026-12-15",
+      "usage": "api"
+    },
+    {
+      "name": "腾讯云混元生 3D",
+      "kind": "newuser",
+      "reward": "新人领 100 积分（HY-3D-3.0/3.1/Express）",
+      "note": "首次开通后在模型广场新人免费体验入口选混元生 3D，积分用于同名默认推理服务，领取后 1 年有效。",
+      "url": "https://cloud.tencent.com/document/product/1823/130053",
+      "endsAt": "2026-12-31",
+      "usage": "api"
     },
     {
       "name": "火山引擎 11.11 AI 智选",
@@ -649,6 +658,15 @@
       "url": "https://maas.unisound.com/model-hub/u2-decision",
       "endsAt": "",
       "usage": "api"
+    },
+    {
+      "name": "千问办公 MiniMax M3.1 Flash 限免",
+      "kind": "activity",
+      "reward": "限时免费用 MiniMax M3.1 Flash 文本推理",
+      "note": "个人免费版可用，仅文本推理免积分，联网搜索、图片和音视频仍可能扣积分。",
+      "url": "https://docs.qwenwork.cn/activity/minimax-m3-1-flash-free",
+      "endsAt": "2026-12-02",
+      "usage": "app"
     }
   ]
 }
